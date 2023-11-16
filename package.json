@@ -1,0 +1,11 @@
+{
+  "name": "formacao_react_developer_by_dio",
+  "version": "1.0.0",
+  "description": "Formação React Developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
