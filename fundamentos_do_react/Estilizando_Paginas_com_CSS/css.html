@@ -124,9 +124,88 @@
         </h2>
         <p>
             Uma Pseudo-Classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, <strong><code>:hover</code></strong> pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele. <br>
-            <button class="meu-botao">Clique aqui</button>
-
+            <button class="meu-botao">Clique aqui</button> <br><br>
+            A documentação oficial sobre pseudo-classes em CSS pode ser encontrada no site da Mozilla Developer Network (MDN). Aqui está o link direto para a seção de pseudo-classes no MDN Web Docs: <br>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">MDN Web Docs - Pseudo-classes</a> <br>
+            Nessa página, você encontrará informações detalhadas sobre várias pseudo-classes em CSS, incluindo exemplos e explicações de como elas funcionam. O MDN é uma fonte confiável e abrangente para aprender sobre tecnologias web, e a documentação é frequentemente atualizada para refletir as últimas especificações e melhores práticas.
         </p>
+        <hr>
+
+        <h2>
+            Media Queries
+        </h2>
+        <p>
+            Com a diversidade de dispositivos e tamanhos de tela disponíveis hoje, é crucial projetar páginas web que se adaptem a diferentes contextos. É aqui que as Media Queries em CSS entram em jogo. Elas permitem que você aplique estilos específicos com base nas características do dispositivo ou da tela.
+        </p>
+        <h3>
+           O que são medias queries? 
+        </h3>
+        <p>
+            As Media Queries são uma parte fundamental do design responsivo na web. Elas permitem que você ajuste o estilo do seu site com base em características como largura de tela, altura de tela, orientação, resolução de tela, entre outras.
+        </p>
+       
+        <p>
+            <strong><i>Sintaxe Básica</i></strong>
+            A sintaxe básica de uma Media Query parece com isso:
+        </p>
+       <img class="img-box" src="/paginas_web_com_HTML/img/media1.png" alt="media"> 
+       <p>
+        <ul>
+            <li><code>`@media`</code>: Indica que estamos usando uma Media Query.</li>
+            <li><code>`only screen`</code>: Especifica que a regra se aplica apenas a dispositivos de tela (ignora impressoras, por exemplo).</li>
+            <li><code>`(max-width: 600px)`</code>: A condição que deve ser atendida para aplicar os estilos dentro da Media Query.</li>
+        </ul>
+        <br>
+        <p><strong>Exemplos ná prática</strong></p>
+        <ol>
+            <li>
+                Layouts Flexíveis: <br>
+                <img class="img-box" src="/paginas_web_com_HTML/img/flexiveis.png" alt="foto-layouts-flexiveis">
+            </li> <br>
+            <li>
+                Tamanhos de Fonte Diferentes: <br>
+                <img class="img-box" src="/paginas_web_com_HTML/img/fontes-media.png" alt="foto-fontes-diferentes">
+            </li> <br>
+            <li>
+                Imagens responsivas: <br>
+                <img class="img-box" src="/paginas_web_com_HTML/img/imagens-respon-media.png" alt="foto-layouts-flexiveis">
+            </li>
+        </ol>
+       </p>
+       <h4>Boas Práticas</h4>
+       <ol>
+        <li>
+            <strong>Pensamento Mobile-First:</strong> <br>
+            <ul>
+                <li>
+                    Comece projetando para dispositivos móveis e adicione estilos à medida que a tela aumenta.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <strong>Use <code>`em`</code> ou <code>`rem`</code> para Tamanhos de Fonte:</strong> <br>
+            <ul>
+                <li>
+                    Isso ajuda a manter a consistência e facilita ajustes em várias telas.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <strong>Teste em Vários Dispositivos:</strong> <br>
+            <ul>
+                <li>
+                    Utilize ferramentas de desenvolvedor e teste em diferentes navegadores e dispositivos.
+                </li>
+            </ul>
+        </li>
+       </ol>
+       <h4>
+        Conclusão
+    </h4>
+       <p>
+        As Media Queries são uma ferramenta poderosa para criar layouts responsivos e garantir uma ótima experiência do usuário em uma ampla variedade de dispositivos. Ao aplicar essas técnicas, você pode melhorar a usabilidade e a acessibilidade do seu site, independentemente do dispositivo utilizado pelos visitantes.
+       </p>
+
 
 
 
