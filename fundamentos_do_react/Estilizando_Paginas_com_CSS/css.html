@@ -11,123 +11,142 @@
         <h1>Estilizando_Paginas_com_CSS</h1>
     <p>Básico  - 2 Horas</p>
     </header>
-    <h2>
-        O que é CSS?
-    </h2>
-    <p>
-        O <strong>CSS</strong> é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos nas páginas web. O CSS separa o conteúdo da representação visual do site. Pense na decoracão da sua página. Utilizando o CSS é possivel alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
-    </p>
-
-    <h2>O que é seletores.</h2>
-    <p>Os seletores são usados para direcionar os elementos HTML em nossas páginas da web que queremos estilizar. Há uma grande variedade de seletores CSS disponiveis, permitindo uma precisão refinada ao selecionar os elementos a serem estilizados. <br><br>
-    <strong> Exemplo:</strong>
-    </p>
-
-    <p>
-        Seletores de tipo:
-    </p>
-    <div id="code">
-        <code>
-            h1 {<br>
-                color:blue;<br>
-                background-color: yellow;<br>
-            } <br>
-            p { <br>
-                color: red; <br>
-            }
-        </code>
-    </div>
-    <br>
-    <p>
-        Seletores de Classe:
+    <main>
+        <h2>
+            O que é CSS?
+        </h2>
+        <p>
+            O <strong>CSS</strong> é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos nas páginas web. O CSS separa o conteúdo da representação visual do site. Pense na decoracão da sua página. Utilizando o CSS é possivel alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
+        </p>
+    
+        <h2>O que é seletores.</h2>
+        <p>Os seletores são usados para direcionar os elementos HTML em nossas páginas da web que queremos estilizar. Há uma grande variedade de seletores CSS disponiveis, permitindo uma precisão refinada ao selecionar os elementos a serem estilizados. <br><br>
+        <strong> Exemplo:</strong>
+        </p>
+    
+        <p>
+            Seletores de tipo:
+        </p>
         <div id="code">
             <code>
-                .box { }
+                h1 {<br>
+                    color:blue;<br>
+                    background-color: yellow;<br>
+                } <br>
+                p { <br>
+                    color: red; <br>
+                }
             </code>
         </div>
-    </p>
-    <p>
-        Seletores de Id:
+        <br>
+        <p>
+            Seletores de Classe:
+            <div id="code">
+                <code>
+                    .box { }
+                </code>
+            </div>
+        </p>
+        <p>
+            Seletores de Id:
+            <div id="code">
+                <code>
+                    #unique { }
+                </code>
+            </div> 
+        </p>
+        <h3>Seletores de Atributos</h3>
         <div id="code">
             <code>
-                #unique { }
+                a[title] { }
             </code>
         </div> 
-    </p>
-    <h3>Seletores de Atributos</h3>
-    <div id="code">
-        <code>
-            a[title] { }
-        </code>
-    </div> 
-    <br>
-    <div id="code">
-        <code>
-            a[href="https://example.com" ] { }
-        </code>
-    </div> 
-    <p>
-        A documentação oficial do CSS pode ser encontrada no site da Mozilla Developer Network (MDN), que é uma excelente fonte de informações para desenvolvedores web. Aqui está o link para a seção de documentação do CSS no MDN: 
-    </p>
-    <p>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs - CSS</a>
-    </p>
-    <p>
-        Nesta página, você encontrará informações detalhadas sobre propriedades CSS, seletores, unidades, conceitos básicos, layout, flexbox, grid, animações, transições e muito mais. A documentação do MDN é frequentemente atualizada e é uma referência confiável para aprender e consultar informações sobre CSS.
-    </p>
-    <ul>
-        <li>
-            <a href="https://www.w3.org/Style/CSS/" target="_blank">W3C CSS</a>
-        </li>
-        <li>
-            <a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a>
-        </li>
-        <li>
-            <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a>
-        </li>
+        <br>
+        <div id="code">
+            <code>
+                a[href="https://example.com" ] { }
+            </code>
+        </div> 
+        <p>
+            A documentação oficial do CSS pode ser encontrada no site da Mozilla Developer Network (MDN), que é uma excelente fonte de informações para desenvolvedores web. Aqui está o link para a seção de documentação do CSS no MDN: 
+        </p>
+        <p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs - CSS</a>
+        </p>
+        <p>
+            Nesta página, você encontrará informações detalhadas sobre propriedades CSS, seletores, unidades, conceitos básicos, layout, flexbox, grid, animações, transições e muito mais. A documentação do MDN é frequentemente atualizada e é uma referência confiável para aprender e consultar informações sobre CSS.
+        </p>
+        <ul>
+            <li>
+                <a href="https://www.w3.org/Style/CSS/" target="_blank">W3C CSS</a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a>
+            </li>
+            <li>
+                <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a>
+            </li>
+            
+        </ul>
+        <p>
+            Além do MDN, existem outras fontes online, como o site oficial do W3C (World Wide Web Consortium), que define os padrões web, e tutoriais em diversos blogs e plataformas de aprendizado online, como a W3Schools e o CSS-Tricks.
+        </p>
+        <br> <hr>
+        <h2>Caixas (Box Models)</h2>
+        <h3>O que são?</h3>
+        <p> 
+            Em uma página WEb, cada elemento é representado como um Box retangular. Determinar o tamanho, propriedades como: <br> Sua cor, fundo, estilos das bordas, e a posicão desses boxes é o objetivo do mecanismo de renderização.
+        </p>
+        <p>
+            No CSS, cada um desses boxes retngulares é descrita usando o box model padrão. Este modelo descreve o conteúdo do espaço ocupado por um elemento. Cada box possui 4 edges: margin edge, border edge, padding edge e content edge. <br>
+            <strong>Exemplo:</strong>
+        </p>
+        <img class="img-box" src="https://hermes.dio.me/articles/cover/bc77d880-2cfa-4f01-81b5-012f08d572d3.png" alt="box-model">
+        <br>
+        <br><hr>
+    
+        <h3>Flexbox</h3>
+        <p>
+            O Flex box foi projetado tanto como um modelo de layout unidimensional quanto como um método capaz de organizar espacialmente os elementos em uma interface, alé de possuir capacidades avançadas de alinhamento. Quando se descreve o flexbox como sendo unidimensional, enfatiza-se o fato de que ele lida com o layot em uma dimensão de cada vez, seja uma linha ou uma coluna
+        </p>
+        <h3>
+            Os eixos do flexbox
+        </h3>
+        <p>
+            Para se utilizar o flexbox, é preciso ter em mente que todas as operações realizadas relacionam-se a dois eixos: o eixo principal e o eixo transversal. O eixo principal e definido através da propriedade <strong><i>flex-direction</i></strong> e o eixo transversal encontra-se na direção perpendicular a ele.
+        </p>
+        <h4>Eixo principal(Main Axis)</h4>
+        <img class="img-box" src="/paginas_web_com_HTML/img/eixop.png" alt="img eixos">
         
-    </ul>
-    <p>
-        Além do MDN, existem outras fontes online, como o site oficial do W3C (World Wide Web Consortium), que define os padrões web, e tutoriais em diversos blogs e plataformas de aprendizado online, como a W3Schools e o CSS-Tricks.
-    </p>
-    <br> <hr>
-    <h2>Caixas (Box Models)</h2>
-    <h3>O que são?</h3>
-    <p> 
-        Em uma página WEb, cada elemento é representado como um Box retangular. Determinar o tamanho, propriedades como: <br> Sua cor, fundo, estilos das bordas, e a posicão desses boxes é o objetivo do mecanismo de renderização.
-    </p>
-    <p>
-        No CSS, cada um desses boxes retngulares é descrita usando o box model padrão. Este modelo descreve o conteúdo do espaço ocupado por um elemento. Cada box possui 4 edges: margin edge, border edge, padding edge e content edge. <br>
-        <strong>Exemplo:</strong>
-    </p>
-    <img class="img-box" src="https://hermes.dio.me/articles/cover/bc77d880-2cfa-4f01-81b5-012f08d572d3.png" alt="box-model">
-    <br>
-    <br>
+        <br><br><hr>
+        <h2>
+            Pseudo-Classes e Elementos
+        </h2>
+        <p>
+            Uma Pseudo-Classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, <strong><code>:hover</code></strong> pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele. <br>
+            <button class="meu-botao">Clique aqui</button>
 
-    <h3>Flexbox</h3>
-    <p>
-        O Flex box foi projetado tanto como um modelo de layout unidimensional quanto como um método capaz de organizar espacialmente os elementos em uma interface, alé de possuir capacidades avançadas de alinhamento. Quando se descreve o flexbox como sendo unidimensional, enfatiza-se o fato de que ele lida com o layot em uma dimensão de cada vez, seja uma linha ou uma coluna
-    </p>
-    <h3>
-        Os eixos do flexbox
-    </h3>
-    <p>
-        Para se utilizar o flexbox, é preciso ter em mente que todas as operações realizadas relacionam-se a dois eixos: o eixo principal e o eixo transversal. O eixo principal e definido através da propriedade <strong><i>flex-direction</i></strong> e o eixo transversal encontra-se na direção perpendicular a ele.
-    </p>
-    <h4>Eixo principal(Main Axis)</h4>
-    <img class="img-box" src="/paginas_web_com_HTML/img/eixop.png" alt="img eixos">
+        </p>
 
-    <h2 id="curse">Outros cursos</h2>
-    <div class="cursos">
-        <div class="module">
-            <a href="/paginas_web_com_HTML/teste.html" target="_blank"><img class="logos" src="/paginas_web_com_HTML/img/html_logo.png" alt="logohtml"></a>
+
+
+
+
+        <hr>
+        <h2 id="curse">Outros cursos</h2>
+        <div class="cursos">
+            <div class="module">
+                <a href="/paginas_web_com_HTML/teste.html" target="_blank"><img class="logos" src="/paginas_web_com_HTML/img/html_logo.png" alt="logohtml"></a>
+            </div>
+           
+            <div class="module">
+                <a href="/paginas_web_com_HTML/teste.html" target="_blank"><img class="logos" src="/paginas_web_com_HTML/img/js_logo.png" alt="logoJavaScript"></a>
+            </div>
         </div>
-       
-        <div class="module">
-            <a href="/paginas_web_com_HTML/teste.html" target="_blank"><img class="logos" src="/paginas_web_com_HTML/img/js_logo.png" alt="logoJavaScript"></a>
-        </div>
-    </div>
-    <br><br>
+      
+
+    </main>
+
 
     <footer>
         <div>
