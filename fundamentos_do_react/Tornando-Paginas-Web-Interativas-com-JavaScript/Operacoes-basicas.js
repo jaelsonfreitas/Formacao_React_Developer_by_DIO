@@ -103,3 +103,12 @@ const valores = [1,2,3,4,5,6,7,8,9,10];
 valores.forEach((value) => {
     console.log(`${value} x 5 = ${value * 5}`);
 });
+
+// Método map retorna um valor para nós.
+const valores2 = [1,2,3,4,5,6,7,8,9,10];
+console.log('--------------------');
+const resultado = valores2.map((value)=> {
+    return value * 5;
+} );
+
+console.log(resultado);
