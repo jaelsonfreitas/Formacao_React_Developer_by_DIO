@@ -112,3 +112,25 @@ const resultado = valores2.map((value)=> {
 } );
 
 console.log(resultado);
+
+// Aula 06 Arrow Functions
+
+// De modo geral, função é um "subprograma" que pode ser chamado por código externo (ou interno no caso de recursão) á função. Assim como o programa em si, uma função é composta por uma sequência de instruções chamada corpo da função. Valores podem ser passados para uma função e ela vai retornar um valor.
+
+console.log('++++++++++++++++++++');
+
+function soma(num1, num2) {
+    return num1 + num2
+}
+
+const result1 = soma(2,3);
+console.log(result1);
+
+// Para Arrow functions podemos armazenar a função dentro de uma variável.
+
+const soma2 = (num3, num4) => num3 + num4;
+
+
+const result2 = soma2(5,5);
+console.log(result2);
+
