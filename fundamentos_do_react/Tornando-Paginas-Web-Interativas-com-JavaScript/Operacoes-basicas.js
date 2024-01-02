@@ -134,3 +134,32 @@ const soma2 = (num3, num4) => num3 + num4;
 const result2 = soma2(5,5);
 console.log(result2);
 
+//Aula 07 Arrays
+
+// Arrays são geralmente listas de objetos; são básicamente objetos que contem múltiplos valores armazenados em uma lista. Um array pode ser armazenado em variáveis e ser tratado de forma muito similar a qualquer outro tipo de valor, a diferença esta em podermos acessas cada valor dentro da lista individualmente, e fazer super uteis e eficientes coisas com a lista, como laço atraves de lista e fazer a mesma coisa com cada valor.
+
+const family = [
+    {
+        name: 'José',
+        age: 2023-1965
+    },
+    {
+        name:'Jaelson',
+        age: 33
+    },
+    {
+        name: 'Catarina',
+        age: 2023-1971
+    },
+    {
+        name: 'Thainah',
+        age: 24
+    },
+];
+
+family.push({
+    name: 'Alice',
+    age: 5
+})
+
+console.log(family[4]);
