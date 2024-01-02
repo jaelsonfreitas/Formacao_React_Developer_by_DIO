@@ -141,25 +141,52 @@ console.log(result2);
 const family = [
     {
         name: 'José',
-        age: 2023-1965
+        age: 58,
     },
     {
         name:'Jaelson',
-        age: 33
+        age: 33,
     },
     {
         name: 'Catarina',
-        age: 2023-1971
+        age: 52,
     },
     {
         name: 'Thainah',
-        age: 24
+        age: 24,
     },
 ];
 
 family.push({
     name: 'Alice',
-    age: 5
+    age: 5,
 })
 
 console.log(family[4]);
+
+
+console.log('********** Aula - 08 *************');
+
+
+// Aula 08 - funcionalidade do ES6*
+
+// Filter
+
+const filtroFamilia = family.filter(family => family.age < 55);
+console.table(filtroFamilia);
+console.log('------------');
+const joseFamily = family.find((jose) => jose.name === 'José');
+console.log(joseFamily);
+const joseFamilyI = family.findIndex((jose) => jose.name === 'José');
+console.log(joseFamilyI);
+
+const idades = family.reduce((acc, membro) => {
+    return acc + membro.age
+},0);
+
+console.log(idades);
+
+const acimaDeNove = family.some(family => family.age < 10);
+const menorQueNoventa = family.every(family => family.age < 90);
+console.log(acimaDeNove);
+console.log(menorQueNoventa);
